@@ -1,1 +1,84 @@
-<h1><i><b>SKLEP SPORTOWY</b></i></h1> 
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <title>Formularz - nowy sprzęt</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body style="background-color: #526e2a;">
+
+    <h1 style="text-align: center; font-family: arial;">Anonimowa ankieta<br>zadowolenia z nowego produktu</h1>
+
+    <form enctype="text/plain" action="mailto:tpotajallo@gmail.com" subject="formularz_dane" method="Post">
+
+        <table style="font-family: sans-serif; font-size: 120%;">
+            <tr>
+                <td style="vertical-align: top;">1. Wybierz swoją płeć:<br>
+                    <input type="radio" name="plec" value="mężczyzna">Mężczyzna<br>
+                    <input type="radio" name="plec" value="kobieta">Kobieta<br>
+                    <input type="radio" name="plec" value="inna">Inna<br><br>
+                </td>
+
+                <td style="vertical-align: top;">2. Podaj swój wiek:<br>
+                    <input type="number" name="wiek" min="1" max="120"><br><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="vertical-align: top;">3. Jaki produkt chciałbyś ocenić?<br>
+                    <input type="radio" name="produkt" value="smartfon">Smartfon<br>
+                    <input type="radio" name="produkt" value="laptop">Laptop<br>
+                    <input type="radio" name="produkt" value="telewizor">Telewizor<br><br><br>
+                </td>
+
+                <td style="vertical-align: top;">4. Jak oceniasz jakość nowego produktu?<br>
+                    <input type="radio" name="ocena_jakosci" value="bardzo dobrze">Bardzo dobrze<br>
+                    <input type="radio" name="ocena_jakosci" value="dobrze">Dobrze<br>
+                    <input type="radio" name="ocena_jakosci" value="średnio">Średnio<br>
+                    <input type="radio" name="ocena_jakosci" value="słabo">Słabo<br><br>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td style="vertical-align: top;">5. Czy poleciłbyś ten produkt innym?<br>
+                    <input type="radio" name="polecenie" value="tak">Tak<br>
+                    <input type="radio" name="polecenie" value="nie">Nie<br><br>
+                </td>
+
+                <td style="vertical-align: top;">6. Jakie funkcje tego produktu są dla Ciebie najważniejsze?<br>
+                    <input type="checkbox" name="funkcje" value="wydajność">Wydajność<br>
+                    <input type="checkbox" name="funkcje" value="design">Design<br>
+                    <input type="checkbox" name="funkcje" value="bateria">Bateria<br>
+                    <input type="checkbox" name="funkcje" value="aparat">Aparat<br><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="vertical-align: top;">7. Jak często używasz tego produktu?<br>
+                    <input type="radio" name="czestotliwosc" value="codziennie">Codziennie<br>
+                    <input type="radio" name="czestotliwosc" value="kilka razy w tygodniu">Kilka razy w tygodniu<br>
+                    <input type="radio" name="czestotliwosc" value="okazjonalnie">Okazjonalnie<br><br>
+                </td>
+
+                <td style="vertical-align: top;">8. Co jeszcze chciałbyś dodać odnośnie tego produktu?<br>
+                    <textarea name="dodatkowe" rows="3" cols="30"></textarea><br><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;"><input type="submit" value="Wyślij" style="height:65px; width:120px; font-size: 40px;">
+                </td>
+                <td style="text-align: center;"><input type="reset" value="Reset" style="height:65px; width:120px; font-size: 40px;"><br>
+                </td>
+            </tr>
+
+        </table>
+    </form><br>
+    <A HREF="index.html">Wróć</A>
+</body>
+
+</html>
